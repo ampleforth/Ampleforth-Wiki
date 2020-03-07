@@ -12,7 +12,7 @@ Estimation error in the VWAP aggregation logic of the data provider’s webservi
 ### Trigger
 Extreme trader activity on day of calculation:
 
-**Add Image**
+![Trade](/incident-reports/assets/2020-03-04_trade.png "The trade")
 
 ### Resolution 
 Data provider rolled back its own report by calling the oracle’s [purgeReport()](https://github.com/ampleforth/market-oracle/blob/11d8b95372fb2d03de03f53343187f445cb234a4/contracts/MedianOracle.sol#L140) function.
@@ -24,7 +24,7 @@ This is not considered an administrator or governance action, because it was exe
 ### Detection
 Dev team alerted to high oracle rate on dashboard:
 
-**Add Image**
+![Price](/incident-reports/assets/2020-03-04_price.png "The price")
 
 ### Action Items
 1. Data provider updated its aggregation logic to the most precise form, eliminating estimation. (In progress)
