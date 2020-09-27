@@ -9,4 +9,4 @@ https://etherscan.io/address/eb31973e0febf3e3d7058234a5ebbae1ab4b8c23
 On September 25, approximately $150M worth of ERC20 tokens were stolen from the KuCoin exchange.
 
 ### Transaction ID
-https://etherscan.io/address/0xa847dc227D3F3e86Fa01406279C1E88cb6950c3A
+https://etherscan.io/tx/0x30c742221e0c1d653b70446d1b919f18717cdbb6239e7ced82641c2791d6d5f5
